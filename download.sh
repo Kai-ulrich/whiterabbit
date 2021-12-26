@@ -15,8 +15,8 @@ echo "3) Beef-XSS"
 echo "4) Sherlock"
 echo "5) PhoneInfoga"
 echo "6) ProtonVPN"
-echo "7) Update"
-echo "8) Upgrade"
+echo "7) Update && Upgrade"
+echo "8) More Tools"
 echo "9) Exit"
 echo "Enter a number 1-9"
 read n
@@ -78,11 +78,15 @@ elif [ $n -eq 7 ];
 then
 echo "Update"
 sudo apt-get update
+sudo apt-get upgrade -y
 
 elif [ $n -eq 8 ];
 then
-echo "Upgrade"
-sudo apt-get upgrade -y
+echo "More Tools"
+clear
+echo "Tools:"
+echo "10) Maltego"
+echo "11) cMatrix"
 
 elif [ $n -eq 9 ];
 then
