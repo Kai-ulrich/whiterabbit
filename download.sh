@@ -7,6 +7,7 @@
 for ((;;))
 do
 
+clear
 echo "Tools:"
 echo "1) Byob by Malwaredllc"
 echo "2) Proxmark RDV4"
