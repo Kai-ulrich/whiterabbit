@@ -76,7 +76,7 @@ echo "Working on configuration"
 
 elif [ $n -eq 7 ];
 then
-echo "Update"
+echo "Update && Upgrade"
 sudo apt-get update
 sudo apt-get upgrade -y
 
