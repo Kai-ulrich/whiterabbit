@@ -11,10 +11,10 @@ clear
 echo "Tools:"
 echo "1) Maltego"
 echo "2) cMatrix"
-#echo "3) Beef-XSS"
-#echo "4) Sherlock"
-#echo "5) PhoneInfoga"
-#echo "6) ProtonVPN"
+echo "3) Bash Bunny Payloads"
+echo "4) Rubber Ducky Payloads"
+echo "5) PhoneInfoga"
+echo "6) ProtonVPN"
 echo "7) Update"
 echo "8) Upgrade"
 echo "9) Exit"
@@ -35,17 +35,17 @@ sudo apt-get update
 
 elif [ $n -eq 3 ];
 then
-echo "Downloading Beef-XSS"
-sudo apt-get install beef-xss
-sudo apt-get update
+echo "Downloading Bash Bunny Payloads Repository"
+mkdir bashbunny
+cd bashbunny
+git clone https://github.com/hak5/bashbunny-payloads
 
 elif [ $n -eq 4 ];
 then
-echo "Downloading Sherlock"
-git clone https://github.com/sherlock-project/sherlock.git
-cd sherlock
-python3 -m pip install -r requirement.txt
-sudo apt-get update
+echo "Downloading Rubber Ducky Payloads Reposityory"
+mkdir rubberducky
+cd rubberducky
+git clone https://github.com/hak5/usbrubberducky-payloads
 
 elif [ $n -eq 5 ];
 then
