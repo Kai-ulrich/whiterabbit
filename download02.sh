@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Author: Default_Override
-#Copyright:
+#Description: 
 #Script follows here:
 
 for ((;;))
@@ -13,8 +13,8 @@ echo "1) Maltego"
 echo "2) cMatrix"
 echo "3) Bash Bunny Payloads"
 echo "4) Rubber Ducky Payloads"
-echo "5) PhoneInfoga"
-echo "6) ProtonVPN"
+echo "5) Rubber Ducky Encoder"
+echo "6) Shark Jack Payloads"
 echo "7) Update"
 echo "8) Upgrade"
 echo "9) Exit"
@@ -42,20 +42,24 @@ git clone https://github.com/hak5/bashbunny-payloads
 
 elif [ $n -eq 4 ];
 then
-echo "Downloading Rubber Ducky Payloads Reposityory"
+echo "Downloading Rubber Ducky Payloads Repository"
 mkdir rubberducky
 cd rubberducky
 git clone https://github.com/hak5/usbrubberducky-payloads
 
 elif [ $n -eq 5 ];
 then
-echo "Downloading PhoneInfoga"
-echo "Working on configuration"
+echo "Downloading Rubber Ducky Encoder"
+mkdir duckyencoder
+cd duckyencoder
+git clone https://github.com/hak5darren/USB-Rubber-Ducky
 
 elif [ $n -eq 6 ];
 then
-echo "Downloading ProtonVPN"
-echo "Working on configuration"
+echo "Downloading Shark Jack Payloads"
+mkdir sharkjack
+cd sharkjack
+git clone https://github.com/hak5/sharkjack-payloads.git
 
 elif [ $n -eq 7 ];
 then
