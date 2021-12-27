@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Author: Default_Override
-#Copyright:
+#Description:
 #Script follows here:
 
 for ((;;))
